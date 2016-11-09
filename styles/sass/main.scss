@@ -1,0 +1,413 @@
+$bg-color: #1d1d21;
+$light-bg: #E8CFC5;
+$gutter: 1.5em;
+$brand-color: #ed9f80;
+$brand-color2: #f4b9a6;
+$font-head: 2em;
+$font-body:2em;
+$font-xs: 1em;
+$font-bold: 700;
+$font-family-1: 'adamnormal', sans-serif;
+$font-family-2: 'bellotaregular', sans-serif;
+$font-family-3: 'Work Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+
+
+@font-face {
+    font-family: 'adamnormal';
+    src: url('../../font/adam-webfont.woff2') format('woff2'),
+         url('../../font/adam-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bellotaregular';
+    src: url('../../bellota-regular-webfont.woff2') format('woff2'),
+         url('../../bellota-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bellotalight';
+    src: url('../../bellota-light-webfont.woff2') format('woff2'),
+         url('../../bellota-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+  background-color: $bg-color !important;
+}
+
+.main {
+  background-color: $bg-color;
+  padding: none;
+  @media only screen and (max-width: 500px) {
+    height: 50px
+  }
+
+  //home-landing
+  &__home-landing {
+    padding: none;
+    height: 376px;
+    @media only screen and (max-width: 500px) {
+      height: 150px;
+      padding:0;
+    }
+    &__subtitle {
+      padding-top: $gutter;
+      display: block;
+      margin: 30px auto 20px auto;;
+      text-align: center;
+      width: 160px;
+      @media only screen and (max-width: 500px) {
+        display: none;
+      }
+    }
+    &__logo {
+      padding:$gutter 0;
+      display: block;
+      margin: 0 auto;
+      width: 600px;
+      @media only screen and (max-width: 500px) {
+        display: none;
+      }
+    }
+
+  }//end of home-landing
+}//end of main
+
+//mobile-landing
+.mobile-landing {
+    display: none;
+    @media only screen and (max-width: 500px) {
+      display:block;
+      height: 150px;
+      background-color: #9e776a;
+      padding: 0;
+      width: 100%;
+    }
+    .mobile-logo {
+      width: 330px;
+      padding: 30px 5px 10px 5px;
+      display: block;
+      margin: 0 auto;
+    }
+    h4 {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+}
+
+.content-wrapper {
+  position: relative;
+  padding: 0;
+  width: 100%;
+  .work-content {
+    //work
+    .work-section-title {
+      background-color: #fff;
+      position: absolute;
+      // padding: 10px;
+      height: 700px;
+      width: 50%;
+      float: left;
+      @media only screen and (max-width: 500px) {
+        display: none;
+      }
+      span {
+        font-size: $font-head*2;
+        font-family: $font-family-2;
+        color: $bg-color;
+        padding-top: 20px;
+      }
+      a {
+        font-size: 0.3em;
+        text-transform: uppercase;
+        font-family: $font-family-1;
+        color: $bg-color !important;
+        border-bottom: 1px solid $bg-color;
+        padding-top: 30px;
+      }
+    }
+    .work-section-content {
+      height: 2100px;
+      width: 50%;
+      float: right;
+      // margin: 0 auto;
+      @media only screen and (max-width: 500px) {
+        height: 300px;
+        width: 100%;
+        float: none;
+      }
+      .work-item1 {
+        display: block;
+        background: url(../../images/curranbw.jpg) no-repeat 40% 40%;
+        height: 500px;
+        overflow: hidden;
+        background-size: cover;
+        @media only screen and (max-width: 500px) {
+          background: url(../../images/curranbw.jpg) no-repeat center;
+          height: 300px;
+        }
+      }
+
+      .work-item2 {
+        display: block;
+        background: url(../../images/sftravel.jpg) no-repeat center top;
+        height: 500px;
+        overflow: hidden;
+        background-size: Auto 500px;
+        @media only screen and (max-width: 500px) {
+          background: url(../../images/sftravel.jpg) no-repeat center;
+          height: 300px;
+        }
+      }
+      .work-item3 {
+        display: block;
+        background: url(../../images/amongstrangers.jpg) no-repeat 90%;
+        height: 500px;
+        overflow: hidden;
+        background-size: Auto 500px;
+        @media only screen and (max-width: 500px) {
+          background: url(../../images/amongstrangers.jpg) no-repeat center;
+          height: 300px;
+        }
+      }
+      .work-item4 {
+        display: block;
+        background: url(../../images/hs-screens-bw.jpg) no-repeat 90%;
+        height: 500px;
+        overflow: hidden;
+        background-size: Auto 500px;
+        @media only screen and (max-width: 500px) {
+          background: url(../../images/amongstrangers.jpg) no-repeat center;
+          height: 300px;
+        }
+      }
+      .see-all-work {
+        text-align: center;
+        height: 100px;
+        width: 100%;
+        float: right;
+        padding-top: 30px;
+        font-size: 2em;
+        text-transform: uppercase;
+        a {
+          color: $brand-color;
+          font-family: $font-family-1;
+          &:hover {
+            font-weight: bolder;
+          }
+        }
+      }
+    }//end of work-section-content
+  }//end of work-content
+
+  //about
+  .about-content {
+    .about-section-title {
+      background-color: $brand-color;
+      position: absolute;
+      padding: 10px;
+      height: 700px;
+      width: 50%;
+      float: left;
+      @media only screen and (max-width: 500px) {
+        display: none;
+      }
+      span {
+        color: $bg-color;
+
+      }
+    }
+    .about-section-content {
+      height: 1200px;
+      background-color: #fff;
+      width: 50%;
+      float: right;
+      @media only screen and (max-width: 500px) {
+        height: auto;
+        width: 100%;
+        float: none;
+      }
+      .about-text-wrapper {
+        padding: 150px 80px;
+        font-family: $font-family-3;
+        font-size: $font-body/2;
+        @media only screen and (max-width: 850px) {
+          padding: 100px 30px;;
+        }
+        @media only screen and (max-width: 500px) {
+          padding: $gutter;
+        }
+        h4 {
+          line-height: 1.8;
+        }
+      }
+    }
+  }// end of about-content
+
+  //contact
+  .contact-content {
+    position: relative;
+    // margin-top: -20px;
+    .contact-section-title {
+      background-color: #fff;
+      position: absolute;
+      padding: 10px;
+      height: 700px;
+      width: 50%;
+      float: left;
+      @media only screen and (max-width: 500px) {
+        display: none;
+      }
+    }
+    .contact-section-content {
+      height: 677px;
+      margin-left: 110px;
+      width: 50%;
+      float: right;
+      @media only screen and (max-width: 500px) {
+        height: auto;
+        width: 100%;
+        float: none;
+        margin-left: 0;
+      }
+      .contact-text-wrapper {
+        padding: 150px 80px;
+        color: $brand-color;
+        font-family: $font-family-3;
+        font-size: $font-body/2;
+        @media only screen and (max-width: 850px) {
+          padding: 100px 30px;;
+        }
+        @media only screen and (max-width: 500px) {
+          padding: $gutter;
+        }
+        a {
+          color: $light-bg;
+          // &:hover {
+          //   border-bottom: 1px solid $light-bg;
+          // }
+        }
+        // .fa-linkedin-square, .fa-instagram-square,
+        // .fa-dribble-square, .fa-behance-square {
+        // .fa {
+        //   color: $light-bg;
+        //   font-size: 3em;
+        //   padding: 0.4em 0.5em 0.4em 0;
+        // }
+        i.fa {
+          font-size: 4em;
+          color: $brand-color;
+          padding: 0.2em 0.5em 0.4em 0;
+        }
+        h4 {
+          line-height: 1.8;
+          padding-bottom: 20px;
+        }
+        h1 {
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }// end of contact-content
+
+
+  .ty-section {
+    height: 650px;
+    background-color: $brand-color;
+    text-align: center;
+    @media only screen and (max-width: 500px) {
+      height: 350px;
+    }
+    h3 {
+      font-size: $font-body/2;
+      color: $bg-color;
+      font-family: $font-family-2;
+    }
+  }
+
+}//end of content-wrapper
+
+//global
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  &:hover {
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
+.clear {
+  clear: both;
+  float: none;
+}
+.section-title {
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  span {
+    font-size: 4em;
+    font-family: "bellotaregular", sans-serif;
+    color: #ed9f80;
+    padding-top: 20px;
+  }
+}
+.work-item-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  opacity: 0;
+  }
+
+.see-project{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  opacity: 0;
+  position: relative;
+  .color-box {
+    background-color: $brand-color;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    position: absolute;
+  }
+  .text-box {
+    position: absolute;
+    padding: 40px 50px;
+    background-color:$bg-color;
+    color: $brand-color;
+    h4 {
+      font-family: $font-family-2;
+      font-size: $font-head;
+    }
+    p {
+      font-family: $font-family-1;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.see-project:hover {
+  opacity: 1;
+  transition: .3s ease;
+}
+.transition-width {
+   transition: all 2s ease-out;
+}

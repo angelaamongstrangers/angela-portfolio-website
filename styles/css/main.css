@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300");
+@font-face {
+  font-family: 'adamnormal';
+  src: url("../../font/adam-webfont.woff2") format("woff2"), url("../../font/adam-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bellotaregular';
+  src: url("../../bellota-regular-webfont.woff2") format("woff2"), url("../../bellota-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'bellotalight';
+  src: url("../../bellota-light-webfont.woff2") format("woff2"), url("../../bellota-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  background-color: #1d1d21 !important;
+}
+
+.main {
+  background-color: #1d1d21;
+  padding: none;
+}
+@media only screen and (max-width: 500px) {
+  .main {
+    height: 50px;
+  }
+}
+.main__home-landing {
+  padding: none;
+  height: 376px;
+}
+@media only screen and (max-width: 500px) {
+  .main__home-landing {
+    height: 150px;
+    padding: 0;
+  }
+}
+.main__home-landing__subtitle {
+  padding-top: 1.5em;
+  display: block;
+  margin: 30px auto 20px auto;
+  text-align: center;
+  width: 160px;
+}
+@media only screen and (max-width: 500px) {
+  .main__home-landing__subtitle {
+    display: none;
+  }
+}
+.main__home-landing__logo {
+  padding: 1.5em 0;
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+}
+@media only screen and (max-width: 500px) {
+  .main__home-landing__logo {
+    display: none;
+  }
+}
+
+.mobile-landing {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .mobile-landing {
+    display: block;
+    height: 150px;
+    background-color: #9e776a;
+    padding: 0;
+    width: 100%;
+  }
+}
+.mobile-landing .mobile-logo {
+  width: 330px;
+  padding: 30px 5px 10px 5px;
+  display: block;
+  margin: 0 auto;
+}
+.mobile-landing h4 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.content-wrapper {
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+.content-wrapper .work-content .work-section-title {
+  background-color: #fff;
+  position: absolute;
+  height: 700px;
+  width: 50%;
+  float: left;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .work-content .work-section-title {
+    display: none;
+  }
+}
+.content-wrapper .work-content .work-section-title span {
+  font-size: 4em;
+  font-family: "bellotaregular", sans-serif;
+  color: #1d1d21;
+  padding-top: 20px;
+}
+.content-wrapper .work-content .work-section-title a {
+  font-size: 0.3em;
+  text-transform: uppercase;
+  font-family: "adamnormal", sans-serif;
+  color: #1d1d21 !important;
+  border-bottom: 1px solid #1d1d21;
+  padding-top: 30px;
+}
+.content-wrapper .work-content .work-section-content {
+  height: 2100px;
+  width: 50%;
+  float: right;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .work-content .work-section-content {
+    height: 300px;
+    width: 100%;
+    float: none;
+  }
+}
+.content-wrapper .work-content .work-section-content .work-item1 {
+  display: block;
+  background: url(../../images/curranbw.jpg) no-repeat 40% 40%;
+  height: 500px;
+  overflow: hidden;
+  background-size: cover;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .work-content .work-section-content .work-item1 {
+    background: url(../../images/curranbw.jpg) no-repeat center;
+    height: 300px;
+  }
+}
+.content-wrapper .work-content .work-section-content .work-item2 {
+  display: block;
+  background: url(../../images/sftravel.jpg) no-repeat center top;
+  height: 500px;
+  overflow: hidden;
+  background-size: Auto 500px;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .work-content .work-section-content .work-item2 {
+    background: url(../../images/sftravel.jpg) no-repeat center;
+    height: 300px;
+  }
+}
+.content-wrapper .work-content .work-section-content .work-item3 {
+  display: block;
+  background: url(../../images/amongstrangers.jpg) no-repeat 90%;
+  height: 500px;
+  overflow: hidden;
+  background-size: Auto 500px;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .work-content .work-section-content .work-item3 {
+    background: url(../../images/amongstrangers.jpg) no-repeat center;
+    height: 300px;
+  }
+}
+.content-wrapper .work-content .work-section-content .work-item4 {
+  display: block;
+  background: url(../../images/hs-screens-bw.jpg) no-repeat 90%;
+  height: 500px;
+  overflow: hidden;
+  background-size: Auto 500px;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .work-content .work-section-content .work-item4 {
+    background: url(../../images/amongstrangers.jpg) no-repeat center;
+    height: 300px;
+  }
+}
+.content-wrapper .work-content .work-section-content .see-all-work {
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  float: right;
+  padding-top: 30px;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+.content-wrapper .work-content .work-section-content .see-all-work a {
+  color: #ed9f80;
+  font-family: "adamnormal", sans-serif;
+}
+.content-wrapper .work-content .work-section-content .see-all-work a:hover {
+  font-weight: bolder;
+}
+.content-wrapper .about-content .about-section-title {
+  background-color: #ed9f80;
+  position: absolute;
+  padding: 10px;
+  height: 700px;
+  width: 50%;
+  float: left;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .about-content .about-section-title {
+    display: none;
+  }
+}
+.content-wrapper .about-content .about-section-title span {
+  color: #1d1d21;
+}
+.content-wrapper .about-content .about-section-content {
+  height: 1200px;
+  background-color: #fff;
+  width: 50%;
+  float: right;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .about-content .about-section-content {
+    height: auto;
+    width: 100%;
+    float: none;
+  }
+}
+.content-wrapper .about-content .about-section-content .about-text-wrapper {
+  padding: 150px 80px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+}
+@media only screen and (max-width: 850px) {
+  .content-wrapper .about-content .about-section-content .about-text-wrapper {
+    padding: 100px 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .about-content .about-section-content .about-text-wrapper {
+    padding: 1.5em;
+  }
+}
+.content-wrapper .about-content .about-section-content .about-text-wrapper h4 {
+  line-height: 1.8;
+}
+.content-wrapper .contact-content {
+  position: relative;
+}
+.content-wrapper .contact-content .contact-section-title {
+  background-color: #fff;
+  position: absolute;
+  padding: 10px;
+  height: 700px;
+  width: 50%;
+  float: left;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .contact-content .contact-section-title {
+    display: none;
+  }
+}
+.content-wrapper .contact-content .contact-section-content {
+  height: 677px;
+  margin-left: 110px;
+  width: 50%;
+  float: right;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .contact-content .contact-section-content {
+    height: auto;
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+}
+.content-wrapper .contact-content .contact-section-content .contact-text-wrapper {
+  padding: 150px 80px;
+  color: #ed9f80;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1em;
+}
+@media only screen and (max-width: 850px) {
+  .content-wrapper .contact-content .contact-section-content .contact-text-wrapper {
+    padding: 100px 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .contact-content .contact-section-content .contact-text-wrapper {
+    padding: 1.5em;
+  }
+}
+.content-wrapper .contact-content .contact-section-content .contact-text-wrapper a {
+  color: #E8CFC5;
+}
+.content-wrapper .contact-content .contact-section-content .contact-text-wrapper i.fa {
+  font-size: 4em;
+  color: #ed9f80;
+  padding: 0.2em 0.5em 0.4em 0;
+}
+.content-wrapper .contact-content .contact-section-content .contact-text-wrapper h4 {
+  line-height: 1.8;
+  padding-bottom: 20px;
+}
+.content-wrapper .contact-content .contact-section-content .contact-text-wrapper h1 {
+  padding-bottom: 20px;
+}
+.content-wrapper .ty-section {
+  height: 650px;
+  background-color: #ed9f80;
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .content-wrapper .ty-section {
+    height: 350px;
+  }
+}
+.content-wrapper .ty-section h3 {
+  font-size: 1em;
+  color: #1d1d21;
+  font-family: "bellotaregular", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.clear {
+  clear: both;
+  float: none;
+}
+
+.section-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.section-title span {
+  font-size: 4em;
+  font-family: "bellotaregular", sans-serif;
+  color: #ed9f80;
+  padding-top: 20px;
+}
+
+.work-item-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  opacity: 0;
+}
+
+.see-project {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  opacity: 0;
+  position: relative;
+}
+.see-project .color-box {
+  background-color: #ed9f80;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+  position: absolute;
+}
+.see-project .text-box {
+  position: absolute;
+  padding: 40px 50px;
+  background-color: #1d1d21;
+  color: #ed9f80;
+}
+.see-project .text-box h4 {
+  font-family: "bellotaregular", sans-serif;
+  font-size: 2em;
+}
+.see-project .text-box p {
+  font-family: "adamnormal", sans-serif;
+  text-transform: uppercase;
+}
+
+.see-project:hover {
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.transition-width {
+  transition: all 2s ease-out;
+}
