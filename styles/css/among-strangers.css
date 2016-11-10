@@ -89,655 +89,189 @@ body {
   }
 }
 
-.content-area {
-  margin: 0 !important;
-  width: 100%;
-}
-@media only screen and (max-width: 990px) {
-  .content-area {
-    margin: -2px -15px 0 -15px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .scrollspy {
-    display: none;
-  }
-}
-
-#nav {
-  padding: 65px 0 0 0;
-  background-color: transparent;
-  min-height: 500px;
-  margin-bottom: 30px !important;
-}
-
-#nav li a p {
-  font-size: 1.2em;
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-
-#nav li a {
-  font-family: "bellotaregular", sans-serif;
-  font-size: 1.2em;
-  padding: 5px 15px !important;
-}
-
-#nav.affix-top {
-  position: relative;
-}
-
-#nav.affix {
-  top: 20px;
-}
-
-#nav.affix,
-#nav.affix-bottom {
-  width: 213px;
-}
-
-#nav.affix-bottom {
-  position: absolute;
-}
-
-#nav li .active, #nav li a, #nav li a:hover, .side-links li.active, .side-links li a, .side-links li a:hover {
-  background-color: transparent !important;
-  color: #1d1d21;
-}
-
-#nav li .active, .side-links li.active {
-  font-weight: bold;
-  color: #ed9f80 !important;
-  border-bottom: 1px solid #ed9f80;
-}
-
-.nav .nav .active a, .nav .nav .active:hover a, .nav .nav .active:focus a {
-  border-left: 5px solid #ed9f80 !important;
-}
-
-#web-development,
-#mobile-development {
-  padding-bottom: 0;
-}
-
-.nav .nav {
-  display: none;
-}
-
-.nav .active .nav {
-  display: block;
-}
-
-.nav .nav a {
-  font-weight: normal;
-  font-size: .85em;
-}
-
-.nav .nav span {
-  margin: 0 5px 0 2px;
-}
-
-.nav .nav .active a,
-.nav .nav .active:hover a,
-.nav .nav .active:focus a {
-  font-weight: bold;
-  padding-left: 30px;
-  border-left: 5px solid black;
-}
-
-.nav .nav .active span,
-.nav .nav .active:hover span,
-.nav .nav .active:focus span {
-  display: none;
-}
-
 .project-content {
-  width: 75%;
-  position: relative;
-  padding: 0;
-}
-@media only screen and (max-width: 992px) {
-  .project-content {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .project-content {
-    padding: 0 !important;
-  }
+  background-color: #1d1d21;
+  color: #daae9c;
+  width: 100%;
+  font-weight: 200;
 }
 
 section {
-  width: 100%;
-}
-@media only screen and (max-width: 500px) {
-  section {
-    padding: 0 !important;
-  }
-}
-@media only screen and (max-width: 500px) {
-  section div.pad-box {
-    padding: 1.5em !important;
-  }
+  border-bottom: 1px solid #1d1d21;
+  padding-top: 30px;
 }
 
-section:last-child {
-  border-bottom: none;
-}
-
-#overview {
-  height: 500px;
-  color: #1d1d21;
-  background: url(../../images/overview.jpg) no-repeat 50% 60%;
-  background-size: cover;
+.intro, .brand-img, .inspo, .target, .logo-lockups {
   width: 100%;
-}
-@media only screen and (max-width: 500px) {
-  #overview {
-    min-height: 750px;
-  }
-}
-#overview .color-box {
-  height: 500px;
-  background-color: #daae9c;
-  width: 100%;
-  position: absolute;
-  opacity: 0.85;
-}
-@media only screen and (max-width: 500px) {
-  #overview .color-box {
-    min-height: 750px;
-  }
-}
-#overview .pad-box {
   margin: 0 auto;
-  padding: 50px 50px 50px 100px;
-  width: 100%;
+  padding: 70px;
+  text-align: center;
   position: relative;
+  height: auto;
+  margin-top: 50px;
 }
-@media only screen and (max-width: 500px) {
-  #overview .pad-box {
-    width: 100%;
-    padding: 2em !important;
-  }
+
+.intro .pad-box {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
 }
-#overview .pad-box h2 {
-  padding-bottom: 30px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  color: #1d1d21;
-  border-bottom: 2px solid #1d1d21;
+.intro .pad-box h2 {
+  font-family: "bellotaregular", sans-serif;
+  padding-bottom: 5px;
+  margin: 0 auto 20px auto;
 }
-#overview .pad-box h4 {
-  font-style: italic;
-  padding: 20px 0;
-}
-#overview .pad-box p {
+.intro .pad-box p {
   font-family: "Work Sans", sans-serif;
-  font-weight: 400;
 }
-#overview .pad-box a {
-  font-size: 1.2em;
+.intro .pad-box img {
   display: block;
-  padding: 20px 0;
-  text-decoration: underline;
-  color: #3e3e46;
-  font-family: "Work Sans", sans-serif;
-}
-#overview .pad-box a:hover {
-  color: #f4b9a6;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100px;
 }
 
-#brand-video {
-  height: 600px;
-  background-color: #3e3e46;
-  color: #daae9c;
+.brand-img1 {
+  height: 500px;
+  background: url(../../images/bg-img.jpg) no-repeat center;
+  background-size: cover;
+  opacity: 0.6;
 }
-@media only screen and (max-width: 500px) {
-  #brand-video {
-    height: 120%;
+
+.target {
+  height: 650px;
+}
+@media only screen and (max-width: 1140px) {
+  .target {
+    height: 1100px;
   }
 }
-#brand-video .pad-box {
-  margin: 0 auto;
-  padding: 50px 50px 50px 100px;
+@media only screen and (max-width: 950px) {
+  .target {
+    padding: 25px;
+  }
+}
+.target .pad-box {
   width: 100%;
+  margin: 0 auto;
   position: relative;
 }
-#brand-video .pad-box h2 {
-  padding-bottom: 30px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
+.target .pad-box h2 {
+  font-family: "bellotaregular", sans-serif;
+  padding-bottom: 5px;
+  margin: 0 auto 20px auto;
+}
+.target .pad-box h4 {
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 10px;
+}
+.target .pad-box p {
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 10px;
+}
+.target .pad-box p span {
   font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
 }
-#brand-video .pad-box iframe {
-  padding-top: 20px;
-  width: 650px;
-  height: 370px;
+.target .pad-box .img-wrapper {
+  width: 50%;
+  position: relative;
+  padding: 0 30px;
+  float: left;
+  text-align: right;
 }
-@media only screen and (max-width: 500px) {
-  #brand-video .pad-box iframe {
+@media only screen and (max-width: 1140px) {
+  .target .pad-box .img-wrapper {
     width: 100%;
     height: auto;
+    float: none;
+    text-align: center;
   }
 }
-
-#branding-research {
-  height: auto;
-  background-color: #daae9c;
-  color: #1d1d21;
+.target .pad-box .img-wrapper a {
+  color: #1d1d21 !important;
 }
-#branding-research .pad-box {
-  margin: 0 auto;
-  padding: 50px 50px 50px 100px;
-  width: 100%;
-  position: relative;
+.target .pad-box .img-wrapper a:focus, .target .pad-box .img-wrapper a:hover {
+  color: transparent !important;
+  text-decoration: none !important;
 }
-#branding-research .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #1d1d21;
+.target .pad-box .img-wrapper a img {
+  padding: 5px;
+  height: 330px;
+  border: 3px #E8CFC5 solid;
+  background-color: #E8CFC5;
 }
-#branding-research #target-market {
-  color: #1d1d21;
-  border-bottom: 1px solid #1d1d21;
+@media only screen and (max-width: 1140px) {
+  .target .pad-box .img-wrapper a img {
+    max-width: 100%;
+    width: 500px;
+  }
 }
-#branding-research #target-market img {
-  width: 100%;
-}
-#branding-research #target-market img .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-  width: 100%;
-}
-#branding-research #target-market img h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
+.target .pad-box .img-wrapper p {
   padding-top: 20px;
 }
-#branding-research #target-market img p {
-  font-family: "Work Sans", sans-serif;
-}
-#branding-research #target-market img p span {
-  font-weight: 600;
-}
-#branding-research #competition {
-  border-bottom: 1px solid #1d1d21;
-  color: #1d1d21;
-}
-#branding-research #competition .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-  width: 700px;
-}
-#branding-research #competition .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-#branding-research #competition .pad-box img {
-  width: 200px;
-  padding: 30px 0 0 0;
-  display: block;
-}
-#branding-research #competition .pad-box p {
-  padding-top: 10px;
-  font-family: "Work Sans", sans-serif;
-}
-#branding-research #inspiration {
-  border-bottom: 1px solid #1d1d21;
-  color: #1d1d21;
-}
-#branding-research #inspiration .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-  width: 700px;
-}
-#branding-research #inspiration .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-#branding-research #inspiration .pad-box img {
-  height: 200px;
-  padding: 30px 0 0 0;
-  display: block;
-}
-#branding-research #inspiration .pad-box p {
-  padding-top: 10px;
-  font-family: "Work Sans", sans-serif;
-}
-#branding-research #inspiration .pad-box p span {
-  font-weight: 600;
-}
-#branding-research #process {
-  border-bottom: 1px solid #1d1d21;
-  padding: 30px 50px;
-  min-height: 380px;
-}
-@media only screen and (max-width: 500px) {
-  #branding-research #process {
-    padding: 2em !important;
-  }
-}
-#branding-research #process h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-#branding-research #process .img-wrapper {
-  margin: 0 auto;
-  padding: 20px 0;
-}
-#branding-research #process .img-wrapper a img {
-  height: 100px;
-  padding: 5px 5px 5px 0;
-  display: inline-block;
-}
-#branding-research #process p {
-  font-style: italic;
-  padding-top: 10px;
-  font-family: "Work Sans", sans-serif;
-}
-#branding-research #initial-designs {
-  border-bottom: 1px solid #1d1d21;
-  padding: 30px 50px;
-  min-height: 400px;
-}
-@media only screen and (max-width: 500px) {
-  #branding-research #initial-designs {
-    padding: 2em !important;
-  }
-}
-#branding-research #initial-designs h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-#branding-research #initial-designs .img-wrapper {
-  margin: 0 auto;
-  padding: 20px 0;
-}
-#branding-research #initial-designs .img-wrapper a img {
-  padding: 5px 5px 5px 0;
-  display: inline-block;
-}
-#branding-research #initial-designs .img-wrapper a .img-long {
-  width: 250px;
-}
-#branding-research #initial-designs .img-wrapper a .img-sq {
-  height: 100px;
-}
-#branding-research #initial-designs p {
-  font-style: italic;
-  padding-top: 10px;
-  font-family: "Work Sans", sans-serif;
-}
-#branding-research #final-logo-bg {
-  border-bottom: 1px solid #1d1d21;
-  padding: 30px 50px;
-  min-height: 500px;
-}
-@media only screen and (max-width: 500px) {
-  #branding-research #final-logo-bg {
-    padding: 2em !important;
-  }
-}
-#branding-research #final-logo-bg h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-#branding-research #logo-lockups {
-  border-bottom: 1px solid #1d1d21;
-  padding: 30px 50px;
-  min-height: 500px;
-}
-@media only screen and (max-width: 500px) {
-  #branding-research #logo-lockups {
-    padding: 2em !important;
-  }
-}
-#branding-research #logo-lockups h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-#branding-research #logo-lockups p {
-  font-style: italic;
-  font-family: "Work Sans", sans-serif;
-  padding: 15px 0;
-}
-#branding-research #logo-lockups .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0;
-}
-#branding-research #logo-lockups .img-wrapper a img {
-  padding: 5px 5px 5px 0;
-  display: inline-block;
-}
-#branding-research #logo-lockups .img-wrapper a .img-long {
-  width: 250px;
-}
-#branding-research #logo-lockups .img-wrapper a .img-sq {
-  height: 150px;
-}
-#branding-research #logo-lockups p {
-  font-style: italic;
-  font-family: "Work Sans", sans-serif;
-  padding-bottom: 15px;
-}
-#branding-research #type-color {
-  border-bottom: 1px solid #1d1d21;
-  padding: 30px 50px;
-  min-height: 500px;
-}
-@media only screen and (max-width: 500px) {
-  #branding-research #type-color {
-    padding: 2em !important;
-  }
-}
-#branding-research #type-color h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-bottom: 20px;
-}
-#branding-research #type-color img {
-  background-color: #fff;
+.target .pad-box .text-wrapper {
   width: 500px;
-  padding: 20px;
-}
-@media only screen and (max-width: 500px) {
-  #branding-research #type-color img {
-    width: 100%;
-  }
-}
-#branding-research #mockups {
-  padding: 30px 50px;
-}
-@media only screen and (max-width: 500px) {
-  #branding-research #mockups {
-    padding: 2em !important;
-  }
-}
-#branding-research #mockups h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-#branding-research #mockups .img-wrapper {
   margin: 0 auto;
-  padding: 20px 0;
+  float: left;
+  text-align: left;
+  padding: 0 20px;
 }
-#branding-research #mockups .img-wrapper a {
-  display: inline-block;
-}
-#branding-research #mockups .img-wrapper a img {
-  width: 250px;
-  padding: 5px 5px 25px 0;
-  display: inline-block;
-}
-#branding-research #mockups .img-wrapper p {
-  font-size: 1.1em;
-  font-style: italic;
-  font-family: "Work Sans", sans-serif;
+@media only screen and (max-width: 1140px) {
+  .target .pad-box .text-wrapper {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 20px;
+  }
 }
 
-#web-design {
-  height: auto;
-  background-color: #3e3e46;
-  color: #daae9c;
+.brand-img2 {
+  height: 500px;
+  background: url(../../images/bg-kay.jpg) no-repeat 50% 20%;
+  background-size: cover;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
 }
-#web-design .pad-box {
-  margin: 0 auto;
-  padding: 50px 50px 50px 100px;
+.brand-img2 .color-box {
+  background-color: #1d1d21;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
   width: 100%;
+}
+.brand-img2 .pad-box {
+  margin: 7% auto;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "bellotaregular", sans-serif;
+  color: #E8CFC5;
+  padding: 60px;
+  position: absolute;
+}
+
+.logo-lockups .pad-box {
+  width: 100%;
+  margin: 0 auto;
   position: relative;
 }
-#web-design .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
-}
-#web-design .pad-box #evolution {
-  border-bottom: 1px solid #daae9c;
-}
-#web-design .pad-box #evolution h3 {
+.logo-lockups .pad-box h2 {
   font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 25px;
+  padding-bottom: 5px;
+  margin: 0 auto 20px auto;
 }
-@media only screen and (max-width: 500px) {
-  #web-design .pad-box #evolution h3 {
-    padding: 1em 0 0 1.2em !important;
-  }
+.logo-lockups .pad-box p {
+  margin-bottom: 20px;
+  font-style: italic;
 }
-#web-design .pad-box #evolution .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
+.logo-lockups .pad-box .img-wrapper {
+  width: 100%;
+  padding: 30px 30px 60px 30px;
 }
-@media only screen and (max-width: 500px) {
-  #web-design .pad-box #evolution .img-wrapper {
-    padding: 2em !important;
-    max-width: 100%;
-  }
-}
-#web-design .pad-box #evolution .img-wrapper a {
-  display: inline-block;
-}
-#web-design .pad-box #evolution .img-wrapper a img {
-  width: 180px;
-  padding: 5px 5px 5px 0;
-}
-#web-design .pad-box #evolution .img-wrapper p {
-  width: 600px;
-  padding: 15px 0;
-  font-family: "Work Sans", sans-serif;
-}
-@media only screen and (max-width: 500px) {
-  #web-design .pad-box #evolution .img-wrapper p {
-    width: 100%;
-    padding: 0;
-  }
-}
-#web-design .pad-box #inspiration2 {
-  border-bottom: 1px solid #daae9c;
-}
-#web-design .pad-box #inspiration2 h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 25px;
-}
-@media only screen and (max-width: 500px) {
-  #web-design .pad-box #inspiration2 h3 {
-    padding: 1em 0 0 1.2em !important;
-  }
-}
-#web-design .pad-box #inspiration2 .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
-}
-@media only screen and (max-width: 500px) {
-  #web-design .pad-box #inspiration2 .img-wrapper {
-    padding: 2em !important;
-    max-width: 100%;
-  }
-}
-#web-design .pad-box #inspiration2 .img-wrapper a {
-  display: inline-block;
-}
-#web-design .pad-box #inspiration2 .img-wrapper a img {
+.logo-lockups .pad-box .img-wrapper a img {
   width: 250px;
-  padding: 5px 5px 5px 0;
-}
-#web-design .pad-box #inspiration2 .img-wrapper p {
-  width: 600px;
-  padding: 15px 0;
-  font-family: "Work Sans", sans-serif;
-}
-@media only screen and (max-width: 500px) {
-  #web-design .pad-box #inspiration2 .img-wrapper p {
-    width: 100%;
-    padding: 0;
-  }
-}
-#web-design .pad-box #ia {
-  border-bottom: 1px solid #daae9c;
-}
-#web-design .pad-box #ia h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 25px;
-}
-#web-design .pad-box #ia .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
-}
-#web-design .pad-box #ia .img-wrapper a {
-  display: inline-block;
-}
-#web-design .pad-box #ia .img-wrapper a img {
-  max-width: 100%;
-  width: 650px;
-  padding: 15px 5px 5px 0;
-}
-#web-design .pad-box #wireframes {
-  border-bottom: 1px solid #daae9c;
-}
-#web-design .pad-box #wireframes h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 25px;
-}
-#web-design .pad-box #wireframes .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
-}
-#web-design .pad-box #wireframes .img-wrapper a {
-  display: inline-block;
-}
-#web-design .pad-box #wireframes .img-wrapper a img {
-  max-width: 100%;
-  width: 650px;
-  padding: 5px 5px 5px 0;
-}
-#web-design .pad-box #high-fid {
-  min-height: 600px;
-}
-#web-design .pad-box #high-fid h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 25px;
-}
-#web-design .pad-box #high-fid .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
-  display: inline-block;
-}
-#web-design .pad-box #high-fid .img-wrapper img {
-  max-width: 100%;
-  width: 650px;
-  padding: 5px 5px 5px 0;
+  margin: 20px;
 }
 
 .application {
