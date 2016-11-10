@@ -30,6 +30,10 @@ a.active, .active a, .active, li.active, a {
   }
 }
 
+.affix {
+  border-bottom: 1px solid #f4b9a6;
+}
+
 .my-navbar-wrapper {
   border-radius: none !important;
   width: 100%;
@@ -38,7 +42,6 @@ a.active, .active a, .active, li.active, a {
   text-align: center;
   position: relative;
   min-height: 50px;
-  border: none;
   background-color: #1d1d21 !important;
   border-color: none;
 }

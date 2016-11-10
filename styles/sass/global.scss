@@ -48,6 +48,10 @@ a.active, .active a, .active, li.active, a{
   }
 }
 
+.affix {
+  border-bottom: 1px solid $brand-color2;
+}
+
 .my-navbar-wrapper {
   border-radius: none !important;
   width: 100%;
@@ -56,7 +60,7 @@ a.active, .active a, .active, li.active, a{
   text-align: center;
   position: relative;
   min-height: 50px;
-  border: none;
+  // border: none;
   background-color: $bg-color !important;
   border-color: none;
   @media only screen and (max-width: 500px) {

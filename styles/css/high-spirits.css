@@ -21,6 +21,7 @@ body {
   position: relative;
   line-height: 1.5;
   background-color: #fff;
+  color: #cabbb5;
 }
 
 @media only screen and (max-width: 500px) {
@@ -62,7 +63,7 @@ body {
 }
 
 .project-hero {
-  background: url(../../images/hs-screens.jpg) no-repeat 50% 10%;
+  background: url(../../images/hs-screens.jpg) no-repeat 50% 45%;
   background-size: cover;
   width: 100%;
   height: 500px;
@@ -71,754 +72,172 @@ body {
   justify-content: center;
   align-items: center;
 }
+.project-hero .color-box {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background-color: #1d1d21;
+  opacity: 0.6;
+}
 .project-hero img {
   position: absolute;
-  width: 200px;
+  width: 250px;
   max-width: 100%;
 }
 @media only screen and (max-width: 990px) {
   .project-hero img {
-    width: 100px;
+    width: 300px;
   }
-}
-
-.content-area {
-  margin: 0 !important;
-  width: 100%;
-}
-@media only screen and (max-width: 990px) {
-  .content-area {
-    margin: -2px -15px 0 -15px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .scrollspy {
-    display: none;
-  }
-}
-
-#nav {
-  padding: 65px 0 0 0;
-  background-color: transparent;
-  min-height: 700px;
-  margin-bottom: 30px !important;
-}
-
-#nav li a p {
-  font-size: 1.2em;
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-}
-
-#nav li a {
-  font-family: "bellotaregular", sans-serif;
-  font-size: 1.2em;
-  padding: 5px 15px !important;
-}
-
-#nav.affix-top {
-  position: relative;
-}
-
-#nav.affix {
-  top: 20px;
-}
-
-#nav.affix,
-#nav.affix-bottom {
-  width: 213px;
-}
-
-#nav.affix-bottom {
-  position: absolute;
-}
-
-#nav li .active, #nav li a, #nav li a:hover, .side-links li.active, .side-links li a, .side-links li a:hover {
-  background-color: transparent !important;
-  color: #1d1d21;
-}
-
-#nav li .active, .side-links li.active {
-  font-weight: bold;
-  color: #ed9f80 !important;
-  border-bottom: 1px solid #bcb5f5;
-}
-
-.nav .nav .active a, .nav .nav .active:hover a, .nav .nav .active:focus a {
-  border-left: 5px solid #bcb5f5 !important;
-}
-
-#web-development,
-#mobile-development {
-  padding-bottom: 0;
-}
-
-.nav .nav {
-  display: none;
-}
-
-.nav .active .nav {
-  display: block;
-}
-
-.nav .nav a {
-  font-weight: normal;
-  font-size: .85em;
-}
-
-.nav .nav span {
-  margin: 0 5px 0 2px;
-}
-
-.nav .nav .active a,
-.nav .nav .active:hover a,
-.nav .nav .active:focus a {
-  font-weight: bold;
-  padding-left: 30px;
-  border-left: 5px solid black;
-}
-
-.nav .nav .active span,
-.nav .nav .active:hover span,
-.nav .nav .active:focus span {
-  display: none;
 }
 
 .project-content {
-  width: 75%;
-  position: relative;
-  padding: 0;
-}
-@media only screen and (max-width: 992px) {
-  .project-content {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .project-content {
-    padding: 0 !important;
-  }
+  background-color: #1d1d21;
+  width: 100%;
+  font-weight: 200;
 }
 
 section {
-  width: 100%;
+  border-bottom: 1px solid #1d1d21;
+  padding: 30px;
+  margin: 30px auto 0 auto;
 }
 @media only screen and (max-width: 500px) {
   section {
-    padding: 0 !important;
-  }
-}
-@media only screen and (max-width: 500px) {
-  section div.pad-box {
-    padding: 1.5em !important;
-  }
-}
-
-section:last-child {
-  border-bottom: none;
-}
-
-#finals {
-  height: 400px;
-  color: #E8CFC5;
-  width: 100%;
-  background-color: #3e3e46;
-}
-#finals .pad-box {
-  margin: 0 auto;
-  padding: 50px 50px 50px 100px;
-  width: 100%;
-  position: absolute;
-}
-@media only screen and (max-width: 500px) {
-  #finals .pad-box {
-    padding: 2em !important;
-    position: relative;
-  }
-}
-#finals .pad-box h2 {
-  padding-bottom: 30px;
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  color: #E8CFC5;
-}
-
-#intro {
-  height: 1500px;
-  color: #E8CFC5;
-  width: 100%;
-  background-color: #313138;
-}
-@media only screen and (max-width: 500px) {
-  #intro {
-    min-height: 1700px;
-  }
-}
-#intro .pad-box {
-  margin: 0 auto;
-  padding: 50px 50px 50px 100px;
-  width: 100%;
-  position: absolute;
-}
-@media only screen and (max-width: 500px) {
-  #intro .pad-box {
-    padding: 2em !important;
-    position: relative;
-  }
-}
-#intro .pad-box h2 {
-  padding-bottom: 30px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  color: #E8CFC5;
-  border-bottom: 2px solid #E8CFC5;
-}
-#intro .pad-box #definition {
-  height: 350px;
-  border-bottom: 1px solid #E8CFC5;
-}
-#intro .pad-box #definition .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-  width: 700px;
-}
-@media only screen and (max-width: 700px) {
-  #intro .pad-box #definition .pad-box {
-    max-width: 100%;
-  }
-}
-#intro .pad-box #definition .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding: 20px 0;
-}
-#intro .pad-box #definition .pad-box p {
-  font-family: "Work Sans", sans-serif;
-}
-#intro .pad-box #definition .pad-box p span {
-  font-weight: bolder;
-}
-#intro .pad-box #concept {
-  height: 350px;
-  border-bottom: 1px solid #E8CFC5;
-}
-@media only screen and (max-width: 700px) {
-  #intro .pad-box #concept {
-    min-height: 400px;
-  }
-}
-#intro .pad-box #concept .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-  width: 700px;
-}
-@media only screen and (max-width: 700px) {
-  #intro .pad-box #concept .pad-box {
-    max-width: 100%;
-  }
-}
-#intro .pad-box #concept .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding: 20px 0;
-}
-#intro .pad-box #concept .pad-box p {
-  font-family: "Work Sans", sans-serif;
-}
-#intro .pad-box #inspiration {
-  height: 650px;
-}
-@media only screen and (max-width: 700px) {
-  #intro .pad-box #inspiration {
-    min-height: 400px;
-  }
-}
-#intro .pad-box #inspiration .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-  width: 700px;
-}
-@media only screen and (max-width: 700px) {
-  #intro .pad-box #inspiration .pad-box {
-    max-width: 100%;
-  }
-}
-#intro .pad-box #inspiration .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding: 20px 0;
-}
-#intro .pad-box #inspiration .pad-box a img {
-  height: 200px;
-  padding-bottom: 20px;
-}
-@media only screen and (max-width: 700px) {
-  #intro .pad-box #inspiration .pad-box a img {
-    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px !important;
     height: auto;
   }
 }
-#intro .pad-box #inspiration .pad-box p {
-  font-family: "Work Sans", sans-serif;
-}
 
-#concept-video {
-  height: 680px;
-  background-color: #3e3e46;
-  color: #E8CFC5;
-}
 @media only screen and (max-width: 500px) {
-  #concept-video {
-    height: 120%;
+  .img-wrapper a img {
+    margin: 20px auto !important;
   }
 }
-#concept-video .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#concept-video .pad-box h2 {
-  padding-bottom: 30px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
-}
-#concept-video .pad-box iframe {
-  padding-top: 20px;
-  width: 100%;
+
+.definition, .concept {
+  text-align: center;
   height: 450px;
 }
-@media only screen and (max-width: 500px) {
-  #concept-video .pad-box iframe {
-    width: 100%;
-    height: auto;
-  }
-}
-
-#tech-research {
-  height: auto;
-  background-color: #313138;
-  color: #E8CFC5;
-}
-#tech-research .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#tech-research .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #E8CFC5;
-}
-#tech-research #kirlian {
-  color: #E8CFC5;
-  border-bottom: 1px solid #E8CFC5;
-}
-#tech-research #kirlian .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#tech-research #kirlian .pad-box img {
-  width: 400px;
-  display: block;
-  margin: 0 auto;
-}
-@media only screen and (max-width: 500px) {
-  #tech-research #kirlian .pad-box img {
-    width: 100%;
-    height: auto;
-  }
-}
-#tech-research #kirlian .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 20px;
-}
-#tech-research #kirlian .pad-box p {
-  font-family: "Work Sans", sans-serif;
-}
-#tech-research #kirlian .pad-box p span {
-  font-weight: 600;
-}
-#tech-research #guy {
-  color: #E8CFC5;
-}
-#tech-research #guy .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#tech-research #guy .pad-box img {
-  width: 400px;
-  padding: 30px 0 0 0;
-  display: block;
-  margin: 0 auto;
-}
-@media only screen and (max-width: 500px) {
-  #tech-research #guy .pad-box img {
-    width: 100%;
-  }
-}
-#tech-research #guy .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 20px;
-}
-#tech-research #guy .pad-box p {
-  padding-top: 10px;
-  font-family: "Work Sans", sans-serif;
-}
-
-#wearable {
-  height: auto;
-  background-color: #3e3e46;
-  color: #E8CFC5;
-}
-#wearable .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#wearable .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #E8CFC5;
-}
-#wearable #sketches {
-  color: #E8CFC5;
-  border-bottom: 1px solid #E8CFC5;
-}
-#wearable #sketches .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#wearable #sketches .pad-box a img {
-  width: 400px;
-  display: block;
-  margin: 0 auto;
-}
-@media only screen and (max-width: 500px) {
-  #wearable #sketches .pad-box a img {
-    width: 100%;
-    height: auto;
-  }
-}
-#wearable #sketches .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 20px;
-}
-#wearable #sketches .pad-box p {
-  font-family: "Work Sans", sans-serif;
-  padding-top: 10px;
-}
-#wearable #sketches .pad-box p span {
-  font-weight: 600;
-}
-#wearable #prototype {
-  color: #E8CFC5;
-}
-#wearable #prototype .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#wearable #prototype .pad-box a img {
-  width: 400px;
-  padding: 30px 0 0 0;
-  display: block;
-  margin: 0 auto;
-}
-@media only screen and (max-width: 500px) {
-  #wearable #prototype .pad-box a img {
-    width: 100%;
-  }
-}
-#wearable #prototype .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding-top: 20px;
-}
-#wearable #prototype .pad-box p {
-  padding-top: 10px;
-  font-family: "Work Sans", sans-serif;
-}
-
-#user-research {
-  height: auto;
-  background-color: #313138;
-  color: #E8CFC5;
-}
-#user-research .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#user-research .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #E8CFC5;
-}
-#user-research .pad-box #survey-a {
-  height: 570px;
-  border-bottom: 1px solid #E8CFC5;
-}
-@media only screen and (max-width: 500px) {
-  #user-research .pad-box #survey-a {
-    height: 470px;
-  }
-}
-#user-research .pad-box #survey-a .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#user-research .pad-box #survey-a .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding: 20px 0;
-}
-#user-research .pad-box #survey-a .pad-box a img {
-  width: 500px;
-  padding: 5px 5px 5px 0;
-}
-@media only screen and (max-width: 500px) {
-  #user-research .pad-box #survey-a .pad-box a img {
-    width: 100%;
-  }
-}
-#user-research .pad-box #target-market {
-  height: 600px;
-  color: #E8CFC5;
-  border-bottom: 1px solid #E8CFC5;
-}
-@media only screen and (max-width: 500px) {
-  #user-research .pad-box #target-market {
-    height: 800px;
-  }
-}
-#user-research .pad-box #target-market .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#user-research .pad-box #target-market .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding: 20px 0;
-}
-#user-research .pad-box #target-market .pad-box p {
-  font-family: "Work Sans", sans-serif;
-}
-#user-research .pad-box #target-market .pad-box p span {
-  font-weight: 600;
-  color: #ed9f80;
-}
-#user-research .pad-box #persona {
-  height: 780px;
-  color: #E8CFC5;
-  border-bottom: 1px solid #E8CFC5;
-}
-#user-research .pad-box #persona .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#user-research .pad-box #persona .pad-box a img {
-  padding: 5px 5px 25px 0;
-  width: 100%;
-  opacity: 0.6;
-}
-#user-research .pad-box #persona .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding: 20px 0;
-}
-#user-research .pad-box #persona .pad-box p {
-  font-family: "Work Sans", sans-serif;
-}
-#user-research .pad-box #persona .pad-box p span {
-  font-weight: 600;
-  color: #ed9f80;
-}
-#user-research .pad-box #user-test {
-  height: 710px;
-  color: #E8CFC5;
-}
-@media only screen and (max-width: 500px) {
-  #user-research .pad-box #user-test {
-    height: 650px;
-  }
-}
-#user-research .pad-box #user-test .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#user-research .pad-box #user-test .pad-box a img {
-  padding: 5px 5px 25px 0;
-  width: 100%;
-  opacity: 0.6;
-}
-#user-research .pad-box #user-test .pad-box h3 {
-  font-family: "bellotaregular", sans-serif;
-  font-weight: bolder;
-  padding: 20px 0;
-}
-#user-research .pad-box #user-test .pad-box p {
-  font-family: "Work Sans", sans-serif;
-}
-#user-research .pad-box #user-test .pad-box p span {
-  font-weight: 600;
-  color: #ed9f80;
-}
-
-#task-flows {
-  height: auto;
-  background-color: #3e3e46;
-  color: #E8CFC5;
-}
-#task-flows .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#task-flows .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
-}
-#task-flows .pad-box .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
-}
-#task-flows .pad-box .img-wrapper a {
-  display: inline-block;
-}
-#task-flows .pad-box .img-wrapper a img {
-  width: 200px;
-  padding: 5px 5px 5px 0;
-}
-#task-flows .pad-box p {
-  font-style: italic;
-}
-
-#ia {
-  height: auto;
-  background-color: #313138;
-  color: #E8CFC5;
-}
-#ia .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#ia .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
-}
-#ia .pad-box .img-wrapper {
-  margin: 0 auto;
-  padding: 30px 0;
-}
-#ia .pad-box .img-wrapper a {
-  display: inline-block;
-}
-#ia .pad-box .img-wrapper a img {
-  width: 100%;
-  padding: 5px 5px 5px 0;
-}
-#ia .pad-box p {
-  font-style: italic;
-}
-
-#design-evo {
-  height: auto;
-  background-color: #3e3e46;
-  color: #E8CFC5;
-}
-#design-evo .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#design-evo .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
-}
-#design-evo .pad-box .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
-}
-@media only screen and (max-width: 500px) {
-  #design-evo .pad-box .img-wrapper {
-    padding: 2em !important;
-    max-width: 100%;
-  }
-}
-#design-evo .pad-box .img-wrapper a {
-  display: inline-block;
-}
-#design-evo .pad-box .img-wrapper a img {
-  width: 100%;
-  padding: 5px 5px 5px 0;
-}
-#design-evo .pad-box .img-wrapper p {
+.definition .pad-box, .concept .pad-box {
   width: 600px;
-  padding: 15px 0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.definition .pad-box h2, .concept .pad-box h2 {
+  font-family: "bellotaregular", sans-serif;
+  padding-bottom: 5px;
+  margin: 20px auto;
+}
+.definition .pad-box p, .concept .pad-box p {
   font-family: "Work Sans", sans-serif;
 }
+.definition .pad-box img, .concept .pad-box img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100px;
+}
+
+.concept {
+  background: url(../../images/bg-aura.jpg) no-repeat center;
+  background-size: cover;
+  padding: 90px 0;
+}
+
+.inspo {
+  height: 720px;
+  padding: 90px 0;
+}
+.inspo .pad-box {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.inspo .pad-box h2 {
+  font-family: "bellotaregular", sans-serif;
+  padding-bottom: 5px;
+  margin: 0 auto 20px auto;
+}
+.inspo .pad-box p {
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
 @media only screen and (max-width: 500px) {
-  #design-evo .pad-box .img-wrapper p {
+  .inspo .pad-box p {
     width: 100%;
-    padding: 0;
   }
 }
-
-#screens {
-  height: auto;
-  background-color: #3e3e46;
-  color: #E8CFC5;
-}
-#screens .pad-box {
-  margin: 0 auto;
-  padding: 50px;
-}
-#screens .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
-}
-#screens .pad-box .img-wrapper {
-  margin: 0 auto;
-  padding: 10px 0 30px 0;
-}
-#screens .pad-box .img-wrapper a img {
+.inspo .pad-box .img-wrapper {
+  position: relative;
+  padding: 30px;
   width: 100%;
-  padding: 5px 5px 5px 0;
+  height: auto;
+  text-align: center;
+}
+.inspo .pad-box .img-wrapper a {
+  color: #1d1d21 !important;
+}
+.inspo .pad-box .img-wrapper a:focus, .inspo .pad-box .img-wrapper a:hover {
+  color: transparent !important;
+  text-decoration: none !important;
+}
+.inspo .pad-box .img-wrapper a img {
+  width: 300px;
+  max-width: 100%;
+  padding: 5px;
 }
 
-#mockup {
-  height: auto;
-  background-color: #313138;
-  color: #E8CFC5;
+.wearable-gallery {
+  background: url(../../images/bg-aura.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 90px 0;
+  height: 870px;
 }
-#mockup .pad-box {
+@media only screen and (max-width: 700px) {
+  .wearable-gallery {
+    height: 1200px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .wearable-gallery {
+    height: 1000px;
+  }
+}
+.wearable-gallery .pad-box {
+  width: 100%;
   margin: 0 auto;
-  padding: 50px;
+  position: relative;
 }
-#mockup .pad-box h2 {
-  padding-bottom: 20px;
-  font-family: "adamnormal", sans-serif;
-  text-transform: uppercase;
-  font-weight: bolder;
-  border-bottom: 2px solid #daae9c;
+.wearable-gallery .pad-box h2 {
+  font-family: "bellotaregular", sans-serif;
+  padding-bottom: 5px;
+  margin: 0 auto 20px auto;
+}
+.wearable-gallery .pad-box p {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.wearable-gallery .pad-box .img-wrapper {
+  width: 100%;
+  padding: 30px 30px 60px 30px;
+}
+.wearable-gallery .pad-box .img-wrapper a img {
+  width: 350px;
+  max-width: 100%;
+  margin: 20px;
+}
+
+.mobile-screens {
+  height: 700px;
+  background: url(../../images/hs-screens-final.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
 
 .application {
