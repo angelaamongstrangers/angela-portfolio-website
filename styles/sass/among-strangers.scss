@@ -261,7 +261,7 @@ section {
 }
 
 ////inspiration////
-.brand-img2 {
+.inspo {
   height: 500px;
   background: url(../../images/bg-kay.jpg) no-repeat 50% 20%;
   background-size: cover;
@@ -311,11 +311,80 @@ section {
         img {
           width: 250px;
           margin: 20px;
+          @media only screen and (max-width: 1140px) {
+            max-width: 100%;
+            width: 250px;
+            display: block;
+            margin: 40px auto;
+          }
         }
       }
     }
   }
 }
+
+////TYPE COLOR//////
+.type-color {
+  text-align: center;
+  .pad-box {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    h2 {
+      font-family: $font-family-2;
+      padding-bottom: 5px;
+      margin: 0 auto 20px auto;
+    }
+    p {
+      margin-bottom: 20px;
+      font-style: italic;
+    }
+    .img-wrapper {
+      width: 100%;
+      padding: 30px 30px 60px 30px;
+      a {
+        img {
+          width: 700px;
+          max-width: 100%;
+          margin: 20px auto 40px auto;
+        }
+      }
+    }
+  }
+}
+
+////mobile-screens////
+.mobile-screens {
+  height: 700px;
+  background: url(../../images/mobile-screens.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  .color-box {
+    background-color: $bg-color;
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+////mockups////
+.mockups {
+  height: 700px;
+  background: url(../../images/mobile-screens.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  .color-box {
+    background-color: $bg-color;
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+  }
+}
+
 
 //END OF PROJECT CONTENTS/////
 

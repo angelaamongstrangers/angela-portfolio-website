@@ -225,7 +225,7 @@ section {
   }
 }
 
-.brand-img2 {
+.inspo {
   height: 500px;
   background: url(../../images/bg-kay.jpg) no-repeat 50% 20%;
   background-size: cover;
@@ -233,14 +233,14 @@ section {
   margin: 0;
   padding: 0;
 }
-.brand-img2 .color-box {
+.inspo .color-box {
   background-color: #1d1d21;
   height: 100%;
   opacity: 0.6;
   position: absolute;
   width: 100%;
 }
-.brand-img2 .pad-box {
+.inspo .pad-box {
   margin: 7% auto;
   font-size: 2rem;
   font-weight: 400;
@@ -272,6 +272,71 @@ section {
 .logo-lockups .pad-box .img-wrapper a img {
   width: 250px;
   margin: 20px;
+}
+@media only screen and (max-width: 1140px) {
+  .logo-lockups .pad-box .img-wrapper a img {
+    max-width: 100%;
+    width: 250px;
+    display: block;
+    margin: 40px auto;
+  }
+}
+
+.type-color {
+  text-align: center;
+}
+.type-color .pad-box {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.type-color .pad-box h2 {
+  font-family: "bellotaregular", sans-serif;
+  padding-bottom: 5px;
+  margin: 0 auto 20px auto;
+}
+.type-color .pad-box p {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.type-color .pad-box .img-wrapper {
+  width: 100%;
+  padding: 30px 30px 60px 30px;
+}
+.type-color .pad-box .img-wrapper a img {
+  width: 700px;
+  max-width: 100%;
+  margin: 20px auto 40px auto;
+}
+
+.mobile-screens {
+  height: 700px;
+  background: url(../../images/mobile-screens.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.mobile-screens .color-box {
+  background-color: #1d1d21;
+  height: 100%;
+  opacity: 0.3;
+  position: absolute;
+  width: 100%;
+}
+
+.mockups {
+  height: 700px;
+  background: url(../../images/mobile-screens.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.mockups .color-box {
+  background-color: #1d1d21;
+  height: 100%;
+  opacity: 0.3;
+  position: absolute;
+  width: 100%;
 }
 
 .application {
