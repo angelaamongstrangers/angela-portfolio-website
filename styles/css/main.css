@@ -92,8 +92,10 @@ html, body {
   padding: 0;
   width: 100%;
 }
-.content-wrapper .work-content .work-section-title {
+.content-wrapper .work-content {
   background-color: #fff;
+}
+.content-wrapper .work-content .work-section-title {
   position: absolute;
   height: 700px;
   width: 50%;
@@ -148,7 +150,7 @@ html, body {
   background: url(../../images/sftravel.jpg) no-repeat center top;
   height: 500px;
   overflow: hidden;
-  background-size: Auto 500px;
+  background-size: cover;
 }
 @media only screen and (max-width: 500px) {
   .content-wrapper .work-content .work-section-content .work-item2 {
@@ -161,7 +163,7 @@ html, body {
   background: url(../../images/amongstrangers.jpg) no-repeat 90%;
   height: 500px;
   overflow: hidden;
-  background-size: Auto 500px;
+  background-size: cover;
 }
 @media only screen and (max-width: 500px) {
   .content-wrapper .work-content .work-section-content .work-item3 {
@@ -174,7 +176,7 @@ html, body {
   background: url(../../images/hs-screens-bw.jpg) no-repeat 90%;
   height: 500px;
   overflow: hidden;
-  background-size: Auto 500px;
+  background-size: cover;
 }
 @media only screen and (max-width: 500px) {
   .content-wrapper .work-content .work-section-content .work-item4 {
@@ -183,6 +185,7 @@ html, body {
   }
 }
 .content-wrapper .work-content .work-section-content .see-all-work {
+  background-color: #1d1d21;
   text-align: center;
   height: 100px;
   width: 100%;
@@ -197,6 +200,9 @@ html, body {
 }
 .content-wrapper .work-content .work-section-content .see-all-work a:hover {
   font-weight: bolder;
+}
+.content-wrapper .about-content {
+  background-color: #ed9f80;
 }
 .content-wrapper .about-content .about-section-title {
   background-color: #ed9f80;
@@ -246,6 +252,7 @@ html, body {
   line-height: 1.8;
 }
 .content-wrapper .contact-content {
+  height: 700px;
   position: relative;
 }
 .content-wrapper .contact-content .contact-section-title {
@@ -262,7 +269,7 @@ html, body {
   }
 }
 .content-wrapper .contact-content .contact-section-content {
-  height: 677px;
+  height: 700px;
   margin-left: 110px;
   width: 50%;
   float: right;

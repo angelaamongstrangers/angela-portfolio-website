@@ -104,9 +104,9 @@ html, body {
   padding: 0;
   width: 100%;
   .work-content {
+    background-color: #fff;
     //work
     .work-section-title {
-      background-color: #fff;
       position: absolute;
       // padding: 10px;
       height: 700px;
@@ -157,7 +157,7 @@ html, body {
         background: url(../../images/sftravel.jpg) no-repeat center top;
         height: 500px;
         overflow: hidden;
-        background-size: Auto 500px;
+        background-size: cover;
         @media only screen and (max-width: 500px) {
           background: url(../../images/sftravel.jpg) no-repeat center;
           height: 300px;
@@ -168,7 +168,7 @@ html, body {
         background: url(../../images/amongstrangers.jpg) no-repeat 90%;
         height: 500px;
         overflow: hidden;
-        background-size: Auto 500px;
+        background-size: cover;
         @media only screen and (max-width: 500px) {
           background: url(../../images/amongstrangers.jpg) no-repeat center;
           height: 300px;
@@ -179,13 +179,14 @@ html, body {
         background: url(../../images/hs-screens-bw.jpg) no-repeat 90%;
         height: 500px;
         overflow: hidden;
-        background-size: Auto 500px;
+        background-size: cover;
         @media only screen and (max-width: 500px) {
           background: url(../../images/amongstrangers.jpg) no-repeat center;
           height: 300px;
         }
       }
       .see-all-work {
+        background-color: $bg-color;
         text-align: center;
         height: 100px;
         width: 100%;
@@ -206,6 +207,7 @@ html, body {
 
   //about
   .about-content {
+    background-color: $brand-color;
     .about-section-title {
       background-color: $brand-color;
       position: absolute;
@@ -250,6 +252,7 @@ html, body {
 
   //contact
   .contact-content {
+    height: 700px;
     position: relative;
     // margin-top: -20px;
     .contact-section-title {
@@ -264,7 +267,7 @@ html, body {
       }
     }
     .contact-section-content {
-      height: 677px;
+      height: 700px;
       margin-left: 110px;
       width: 50%;
       float: right;

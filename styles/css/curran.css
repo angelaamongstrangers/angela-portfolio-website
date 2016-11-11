@@ -20,7 +20,7 @@
 body {
   position: relative;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #1d1d21;
 }
 
 @media only screen and (max-width: 500px) {
@@ -91,9 +91,12 @@ body {
   }
 }
 .content-area section {
-  color: #1d1d21;
-  border-bottom: 2px solid #1d1d21;
-  width: 100%;
+  color: #E8CFC5;
+  padding: 30px 0;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
 }
 .content-area section a {
   text-decoration: none;
@@ -105,7 +108,7 @@ body {
 }
 .content-area section h2 {
   font-family: "bellotaregular", sans-serif;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #E8CFC5;
   padding-bottom: 20px;
 }
 .content-area section p {
